@@ -52,3 +52,14 @@ myArray.shift();
 
 // Only change code below this line
 myArray.unshift(["Paul", 35]);
+const myList = [
+  ["Green Apple", 5],
+  ["Chocolate Bar", 3],
+  ["White Bread", 2],
+  ["Orange tomato", 4],
+  ["Black Pasta", 2] 
+];
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction();
