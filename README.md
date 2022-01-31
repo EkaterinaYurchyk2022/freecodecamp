@@ -565,3 +565,13 @@ const testObj = {
 // Only change code below this line
 const playerNumber = 16;  // Change this line
 const player = testObj[playerNumber];   // Change this line
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+myDog.name = "Happy Coder";
