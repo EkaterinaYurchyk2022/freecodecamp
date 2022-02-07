@@ -992,5 +992,8 @@ const half = ({ max, min }) => (max + min) / 2.0;
 
 
 // Only change code above this line
- 
+ let a = 8, b = 6;
+// Only change code below this line
+[a,b] = [b,a];
+
  
