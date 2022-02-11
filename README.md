@@ -1092,6 +1092,33 @@ temp = thermos.temperature; // 26 in Celsius
     <!-- Only change code above this line -->
   </body>
 </html>
+const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
+
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+export { uppercaseString, lowercaseString };
+import { uppercaseString, lowercaseString } from './string_functions.js'; 
+// Only change code above this line
+
+uppercaseString("hello");
+lowercaseString("WORLD!");
+import * as stringFunctions from './string_functions.js';
+// Only change code above this line
+
+stringFunctions.uppercaseString("hello");
+stringFunctions.lowercaseString("WORLD!");
+
+export default function subtract(x, y) {
+  return x - y;
+}
+
+import subtract from "./math_functions.js";  
+// Only change code above this line
+
+subtract(7,4);
 
   
  
