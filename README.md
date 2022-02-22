@@ -1286,3 +1286,11 @@ let result = myRegex.test(myString); // Change this line
 let repeatNum = "42 42 42";
 let reRegex = /^(\d+)\s\1\s\1$/; // Change this line
 let result = reRegex.test(repeatNum);
+
+
+
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i; // Change this line
+let result = userCheck.test(username);
+
+
