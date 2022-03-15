@@ -1417,3 +1417,5 @@ function myFunc() {
 
 
 
+let yourArray = ["name", 3, false, "age", 7]; // Change this line
+
