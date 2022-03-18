@@ -1769,5 +1769,12 @@ factorialize(5);
 
 
 
+let dog = {
+name: "Aron", 
+numLegs: 4
+};
+
+
+
 
    
