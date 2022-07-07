@@ -2645,3 +2645,19 @@ nonMutatingPush(first, second);
 
 
 
+
+
+function getRating(watchList) {
+  // Only change code below this line
+  let averageRating = watchList
+  .filter(f=>f.Director === "Christopher Nolan")
+  .map(f=>Number(f.imdbRating))
+  .reduce((acc, el)=>acc+el)/
+  watchList.filter(f=>f.Director === "Christopher Nolan").length
+
+  // Only change code above this line
+  return averageRating;
+}
+
+
+
