@@ -2761,5 +2761,17 @@ urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 
 
 
+function checkPositive(arr) {
+  // Only change code below this line
+return arr.every(function(value){
+  return value > 0
+})
+
+  // Only change code above this line
+}
+
+checkPositive([1, 2, 3, -4, 5]);
+
+
 
 
