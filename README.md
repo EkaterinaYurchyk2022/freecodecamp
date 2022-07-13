@@ -2884,6 +2884,21 @@ const JSX = (
 
 
 
+const MyComponent = function() {
+  // Change code below this line
+return (
+
+  <div>
+  Some text
+</div>
+)
+
+
+  // Change code above this line
+}
+
+
+
 
 
 
