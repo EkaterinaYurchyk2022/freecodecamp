@@ -3552,9 +3552,11 @@ class MyForm extends React.Component {
   }
   handleSubmit(event) {
     // Change code below this line
-this.setState({
-  submit: this.state.input
-})
+ event.preventDefault()
+    this.setState({
+      submit: this.state.input
+    });
+  }
     // Change code above this line
   }
   render() {
